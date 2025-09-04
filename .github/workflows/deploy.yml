@@ -1,8 +1,8 @@
-name: Deploy Vite to GitHub Pages
+name: Deploy Vite + React to GitHub Pages
 
 on:
   push:
-    branches: [main] # nếu repo dùng 'master' thì đổi lại
+    branches: [ main ]
   workflow_dispatch:
 
 permissions:
@@ -18,25 +18,18 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: "npm"
-
-      - name: Install deps
-        run: npm ci
-
-      - name: Build
-        run: npm run build
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - run: cp dist/index.html dist/404.html && touch dist/.nojekyll
+      - uses: actions/configure-pages@v5          # <— THÊM DÒNG NÀY
+      - uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: dist
 
   deploy:
     needs: build
@@ -45,6 +38,5 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
+      - id: deployment
         uses: actions/deploy-pages@v4

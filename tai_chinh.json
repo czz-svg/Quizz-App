@@ -1,0 +1,57 @@
+[
+  {
+    "q": "Ngân hàng trung ương của Việt Nam là gì?",
+    "options": ["Ngân hàng Nhà nước Việt Nam", "Ngân hàng Vietcombank", "Ngân hàng BIDV", "Ngân hàng Agribank"],
+    "answer": "Ngân hàng Nhà nước Việt Nam"
+  },
+  {
+    "q": "Lạm phát (inflation) xảy ra khi nào?",
+    "options": ["Giá cả hàng hóa và dịch vụ tăng liên tục", "Giá vàng giảm", "Người dân gửi tiết kiệm nhiều", "Xuất khẩu tăng mạnh"],
+    "answer": "Giá cả hàng hóa và dịch vụ tăng liên tục"
+  },
+  {
+    "q": "Chứng khoán (stock) là gì?",
+    "options": ["Một loại tiền ảo", "Giấy tờ chứng nhận quyền sở hữu vốn trong công ty", "Một loại trái phiếu chính phủ", "Một loại bảo hiểm"],
+    "answer": "Giấy tờ chứng nhận quyền sở hữu vốn trong công ty"
+  },
+  {
+    "q": "Lãi suất ngân hàng được tính dựa trên yếu tố nào?",
+    "options": ["Số tiền gửi hoặc vay", "Thời gian gửi hoặc vay", "Tỷ lệ phần trăm theo kỳ hạn", "Tất cả các yếu tố trên"],
+    "answer": "Tất cả các yếu tố trên"
+  },
+  {
+    "q": "Tỷ giá hối đoái (exchange rate) là gì?",
+    "options": ["Giá mua bán một loại cổ phiếu", "Giá của một đồng tiền so với đồng tiền khác", "Giá trị bất động sản", "Mức lãi suất ngân hàng"],
+    "answer": "Giá của một đồng tiền so với đồng tiền khác"
+  },
+  {
+    "q": "Quỹ ETF (Exchange Traded Fund) là gì?",
+    "options": ["Quỹ đầu tư mô phỏng theo chỉ số chứng khoán", "Một loại tiền kỹ thuật số", "Quỹ tiết kiệm ngân hàng", "Bảo hiểm nhân thọ"],
+    "answer": "Quỹ đầu tư mô phỏng theo chỉ số chứng khoán"
+  },
+  {
+    "q": "Nguyên tắc 'không bỏ tất cả trứng vào một giỏ' trong tài chính ám chỉ điều gì?",
+    "options": ["Chi tiêu tiết kiệm", "Đa dạng hóa danh mục đầu tư", "Không đầu tư vào vàng", "Giữ tiền mặt thay vì đầu tư"],
+    "answer": "Đa dạng hóa danh mục đầu tư"
+  },
+  {
+    "q": "Thẻ tín dụng (credit card) khác gì so với thẻ ghi nợ (debit card)?",
+    "options": [
+      "Thẻ tín dụng dùng tiền vay của ngân hàng, thẻ ghi nợ dùng tiền có sẵn trong tài khoản",
+      "Thẻ tín dụng không cần trả lại tiền",
+      "Thẻ ghi nợ không thể dùng để rút tiền",
+      "Cả hai loại thẻ đều giống nhau"
+    ],
+    "answer": "Thẻ tín dụng dùng tiền vay của ngân hàng, thẻ ghi nợ dùng tiền có sẵn trong tài khoản"
+  },
+  {
+    "q": "Lợi nhuận (profit) trong kinh doanh được tính như thế nào?",
+    "options": ["Doanh thu - Chi phí", "Doanh thu + Chi phí", "Chi phí x Doanh thu", "Doanh thu / Chi phí"],
+    "answer": "Doanh thu - Chi phí"
+  },
+  {
+    "q": "Bitcoin được coi là gì?",
+    "options": ["Một loại tiền điện tử phi tập trung", "Một loại cổ phiếu", "Một dạng tín dụng ngân hàng", "Một đồng tiền do chính phủ phát hành"],
+    "answer": "Một loại tiền điện tử phi tập trung"
+  }
+]

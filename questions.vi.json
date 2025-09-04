@@ -1,0 +1,107 @@
+[
+  {
+    "q": "Hook nào dùng để quản lý state trong React?",
+    "options": ["useRef", "useState", "useMemo", "useLayoutEffect"],
+    "answer": "useState"
+  },
+  {
+    "q": "Component con nhận dữ liệu từ component cha thông qua gì?",
+    "options": ["context", "props", "ref", "state"],
+    "answer": "props"
+  },
+  {
+    "q": "Vite chủ yếu giúp gì cho dự án React?",
+    "options": [
+      "Tạo server REST",
+      "Triển khai production",
+      "Bundling/dev server nhanh",
+      "Quản lý cơ sở dữ liệu"
+    ],
+    "answer": "Bundling/dev server nhanh"
+  },
+  {
+    "q": "Trong React, key nên đặt ở đâu khi render danh sách?",
+    "options": [
+      "Phần tử trực tiếp được lặp (ví dụ <li>)",
+      "Thẻ <ul> bao ngoài",
+      "Bất kỳ thẻ con nào cũng được",
+      "Không cần key"
+    ],
+    "answer": "Phần tử trực tiếp được lặp (ví dụ <li>)"
+  },
+  {
+    "q": "useEffect chạy lại khi nào?",
+    "options": [
+      "Mỗi lần click chuột",
+      "Khi giá trị trong mảng deps thay đổi",
+      "Khi reload trình duyệt",
+      "Chỉ chạy một lần duy nhất"
+    ],
+    "answer": "Khi giá trị trong mảng deps thay đổi"
+  },
+  {
+    "q": "fetch() trả về gì?",
+    "options": ["Array", "Promise", "DOM Element", "Object đồng bộ"],
+    "answer": "Promise"
+  },
+  {
+    "q": "HTTP status code 404 nghĩa là gì?",
+    "options": [
+      "Thành công",
+      "Yêu cầu không hợp lệ",
+      "Không tìm thấy tài nguyên",
+      "Máy chủ lỗi nội bộ"
+    ],
+    "answer": "Không tìm thấy tài nguyên"
+  },
+  {
+    "q": "CSS thuộc tính nào để tạo layout theo trục chính/phụ dễ dàng?",
+    "options": [
+      "display: block",
+      "float: left",
+      "display: flex",
+      "position: absolute"
+    ],
+    "answer": "display: flex"
+  },
+  {
+    "q": "Trong JavaScript, const khai báo biến có đặc điểm gì?",
+    "options": [
+      "Không thể thay đổi thuộc tính của object",
+      "Không thể gán lại tham chiếu",
+      "Tự động global",
+      "Tối ưu hiệu năng"
+    ],
+    "answer": "Không thể gán lại tham chiếu"
+  },
+  {
+    "q": "JSON là gì?",
+    "options": [
+      "Hệ quản trị CSDL",
+      "Thư viện React",
+      "Định dạng dữ liệu dạng văn bản",
+      "Trình duyệt web"
+    ],
+    "answer": "Định dạng dữ liệu dạng văn bản"
+  },
+  {
+    "q": "React Router dùng để làm gì?",
+    "options": [
+      "Điều hướng client-side trong SPA",
+      "Tối ưu hình ảnh",
+      "Quản lý state toàn cục",
+      "Tạo API server"
+    ],
+    "answer": "Điều hướng client-side trong SPA"
+  },
+  {
+    "q": "Để tránh mutate mảng gốc khi sắp xếp/xáo trộn, nên làm gì?",
+    "options": [
+      "Dùng var thay const",
+      "Sao chép mảng trước (ví dụ [...arr])",
+      "Không thể tránh",
+      "Sắp xếp trực tiếp arr"
+    ],
+    "answer": "Sao chép mảng trước (ví dụ [...arr])"
+  }
+]

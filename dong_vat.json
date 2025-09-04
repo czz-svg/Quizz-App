@@ -1,0 +1,52 @@
+[
+  {
+    "q": "Loài động vật nào được mệnh danh là chúa sơn lâm?",
+    "options": ["Sư tử", "Hổ", "Báo đốm", "Báo hoa mai"],
+    "answer": "Sư tử"
+  },
+  {
+    "q": "Động vật nào có trí thông minh gần giống con người nhất?",
+    "options": ["Khỉ đột", "Tinh tinh", "Dolphin (cá heo)", "Voi"],
+    "answer": "Tinh tinh"
+  },
+  {
+    "q": "Loài chim nào có thể bắt chước giọng nói của con người?",
+    "options": ["Chim sẻ", "Chim vẹt", "Chim cú", "Chim sáo"],
+    "answer": "Chim vẹt"
+  },
+  {
+    "q": "Loài động vật nào lớn nhất trên Trái Đất hiện nay?",
+    "options": ["Voi châu Phi", "Cá voi xanh", "Cá mập trắng lớn", "Hà mã"],
+    "answer": "Cá voi xanh"
+  },
+  {
+    "q": "Động vật nào có thể ngủ khi đang bay?",
+    "options": ["Chim nhạn", "Chim én", "Chim hải âu", "Chim diệc"],
+    "answer": "Chim hải âu"
+  },
+  {
+    "q": "Loài động vật nào có máu màu xanh?",
+    "options": ["Bạch tuộc", "Cua", "Sứa", "Sao biển"],
+    "answer": "Bạch tuộc"
+  },
+  {
+    "q": "Động vật nào có tuổi thọ cao nhất trong tự nhiên?",
+    "options": ["Rùa Galápagos", "Cá voi lưng gù", "Cá mập Greenland", "Vẹt xám châu Phi"],
+    "answer": "Cá mập Greenland"
+  },
+  {
+    "q": "Loài côn trùng nào có khả năng nâng vật nặng gấp 50 lần trọng lượng cơ thể?",
+    "options": ["Kiến", "Bọ cánh cứng", "Châu chấu", "Ong mật"],
+    "answer": "Kiến"
+  },
+  {
+    "q": "Loài động vật nào có thời gian mang thai dài nhất?",
+    "options": ["Cá voi xanh", "Voi", "Ngựa vằn", "Hươu cao cổ"],
+    "answer": "Voi"
+  },
+  {
+    "q": "Loài chim nào không biết bay nhưng bơi giỏi?",
+    "options": ["Đà điểu", "Chim cánh cụt", "Chim kiwi", "Chim emu"],
+    "answer": "Chim cánh cụt"
+  }
+]

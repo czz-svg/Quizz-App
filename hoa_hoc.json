@@ -1,0 +1,52 @@
+[
+  {
+    "q": "Nguyên tố nào có thể tự bốc cháy khi gặp nước?",
+    "options": ["Natri", "Sắt", "Đồng", "Nhôm"],
+    "answer": "Natri"
+  },
+  {
+    "q": "Chất nào làm cho ớt có vị cay?",
+    "options": ["Capsaicin", "Glucose", "Acetic acid", "Ethanol"],
+    "answer": "Capsaicin"
+  },
+  {
+    "q": "Nguyên tố nào trong bảng tuần hoàn được đặt theo tên của một hành tinh?",
+    "options": ["Uranium", "Helium", "Plutonium", "Cả ba"],
+    "answer": "Cả ba"
+  },
+  {
+    "q": "Khí nào làm bóng bay có thể bay lên trời?",
+    "options": ["Oxi", "Hidro", "Heli", "Nitơ"],
+    "answer": "Heli"
+  },
+  {
+    "q": "Nguyên tố nào cần thiết để than cháy sáng?",
+    "options": ["Oxi", "Hydro", "Nitơ", "Carbon"],
+    "answer": "Oxi"
+  },
+  {
+    "q": "Chất nào trong cơ thể giúp móng tay và tóc cứng?",
+    "options": ["Keratin", "Collagen", "Canxi", "Lipid"],
+    "answer": "Keratin"
+  },
+  {
+    "q": "Nguyên tố nào có mùi đặc trưng giống trứng thối khi ở dạng khí?",
+    "options": ["Oxi", "Hydro sunfua (H2S)", "Clo", "Ozon"],
+    "answer": "Hydro sunfua (H2S)"
+  },
+  {
+    "q": "Chất nào làm chua vị của chanh?",
+    "options": ["Axit citric", "Axit axetic", "Axit lactic", "Axit clohidric"],
+    "answer": "Axit citric"
+  },
+  {
+    "q": "Kim loại nào dẫn điện tốt nhất?",
+    "options": ["Vàng", "Đồng", "Nhôm", "Bạc"],
+    "answer": "Bạc"
+  },
+  {
+    "q": "Khí nào được gọi là 'khí cười'?",
+    "options": ["CO2", "N2O", "O3", "CH4"],
+    "answer": "N2O"
+  }
+]

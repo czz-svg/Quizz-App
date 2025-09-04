@@ -1,0 +1,52 @@
+[
+  {
+    "q": "Số nào tiếp theo trong dãy: 2, 4, 8, 16, ...?",
+    "options": ["18", "24", "32", "36"],
+    "answer": "32"
+  },
+  {
+    "q": "Một số chia hết cho 2 và 3 thì chắc chắn chia hết cho số nào?",
+    "options": ["4", "5", "6", "12"],
+    "answer": "6"
+  },
+  {
+    "q": "Nếu tất cả mèo đều là động vật, và một số động vật biết bơi, thì có chắc chắn có mèo biết bơi không?",
+    "options": ["Có", "Không", "Chưa đủ thông tin", "Luôn đúng"],
+    "answer": "Chưa đủ thông tin"
+  },
+  {
+    "q": "Một hình tứ giác có 4 góc vuông thì chắc chắn là hình gì?",
+    "options": ["Hình thoi", "Hình chữ nhật", "Hình bình hành", "Hình thang"],
+    "answer": "Hình chữ nhật"
+  },
+  {
+    "q": "Trong một lớp học có 30 học sinh, mỗi học sinh bắt tay với tất cả những người khác. Tổng số cái bắt tay là?",
+    "options": ["30", "60", "435", "900"],
+    "answer": "435"
+  },
+  {
+    "q": "Một số chia cho 5 thì số tận cùng của nó có thể là?",
+    "options": ["0 hoặc 5", "2 hoặc 4", "1 hoặc 9", "3 hoặc 7"],
+    "answer": "0 hoặc 5"
+  },
+  {
+    "q": "Nếu hôm nay là thứ Hai, sau 100 ngày nữa sẽ là thứ mấy?",
+    "options": ["Thứ Ba", "Thứ Tư", "Thứ Năm", "Thứ Sáu"],
+    "answer": "Thứ Tư"
+  },
+  {
+    "q": "Một năm nhuận có bao nhiêu ngày?",
+    "options": ["365", "366", "364", "360"],
+    "answer": "366"
+  },
+  {
+    "q": "Có 3 người bạn A, B, C. A già hơn B, B già hơn C. Ai là người trẻ nhất?",
+    "options": ["A", "B", "C", "Không xác định"],
+    "answer": "C"
+  },
+  {
+    "q": "Một hình tam giác có 3 cạnh bằng nhau gọi là gì?",
+    "options": ["Tam giác cân", "Tam giác đều", "Tam giác vuông", "Tam giác tù"],
+    "answer": "Tam giác đều"
+  }
+]

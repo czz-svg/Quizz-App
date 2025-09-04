@@ -1,0 +1,57 @@
+[
+  {
+    "q": "Hành tinh nào lớn nhất trong Hệ Mặt Trời?",
+    "options": ["Trái Đất", "Sao Mộc", "Sao Thổ", "Sao Kim"],
+    "answer": "Sao Mộc"
+  },
+  {
+    "q": "Ngôi sao nào gần Trái Đất nhất?",
+    "options": ["Mặt Trời", "Sirius", "Alpha Centauri", "Proxima Centauri"],
+    "answer": "Mặt Trời"
+  },
+  {
+    "q": "Thiên hà chứa Hệ Mặt Trời của chúng ta tên là gì?",
+    "options": ["Thiên hà Andromeda", "Dải Ngân Hà", "Sombrero", "Messier 87"],
+    "answer": "Dải Ngân Hà"
+  },
+  {
+    "q": "Sao nào có vành đai nổi bật bao quanh?",
+    "options": ["Sao Thổ", "Sao Mộc", "Sao Hải Vương", "Sao Thiên Vương"],
+    "answer": "Sao Thổ"
+  },
+  {
+    "q": "Mặt Trăng quay quanh Trái Đất mất bao lâu?",
+    "options": ["1 ngày", "7 ngày", "27 ngày", "365 ngày"],
+    "answer": "27 ngày"
+  },
+  {
+    "q": "Tốc độ ánh sáng trong chân không xấp xỉ bao nhiêu?",
+    "options": ["30.000 km/s", "300.000 km/s", "3.000.000 km/s", "3.000 km/s"],
+    "answer": "300.000 km/s"
+  },
+  {
+    "q": "Hành tinh nào được gọi là 'Hành tinh Đỏ'?",
+    "options": ["Sao Kim", "Sao Hỏa", "Sao Thổ", "Sao Thiên Vương"],
+    "answer": "Sao Hỏa"
+  },
+  {
+    "q": "Hố đen vũ trụ hình thành từ đâu?",
+    "options": [
+      "Vụ nổ siêu tân tinh của sao khối lượng lớn",
+      "Sự va chạm giữa hai hành tinh",
+      "Mặt Trời nguội đi",
+      "Mặt Trăng vỡ ra"
+    ],
+    "answer": "Vụ nổ siêu tân tinh của sao khối lượng lớn"
+  },
+  {
+    "q": "Người đầu tiên đặt chân lên Mặt Trăng là ai?",
+    "options": ["Neil Armstrong", "Yuri Gagarin", "Buzz Aldrin", "Alan Shepard"],
+    "answer": "Neil Armstrong"
+  },
+  {
+    "q": "Kính viễn vọng không gian nổi tiếng của NASA tên là gì?",
+    "options": ["Hubble", "Kepler", "James Webb", "Spitzer"],
+    "answer": "Hubble"
+  }
+]

@@ -15,19 +15,20 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #000000;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #000000;
 }
 
 body {
   margin: 0;
   display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  justify-content: center;
+  background-image: linear-gradient(to right bottom, rgb(255, 173, 255), rgb(88, 141, 255));
 }
 
 h1 {
@@ -45,6 +46,7 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  margin: 3px;
 }
 button:hover {
   border-color: #646cff;
@@ -56,13 +58,22 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: #000000;
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: #000000;
   }
   button {
     background-color: #f9f9f9;
   }
+}
+.question {
+  min-height: 80px;   /* đủ chứa 2 dòng */
+  display: flex;
+  align-items: center; /* căn giữa theo chiều dọc */
+}
+.app{
+  max-width: 600px;
+  min-width: 320px;
 }

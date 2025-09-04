@@ -1,5 +1,6 @@
-import React, { useCallback, useEffect, useMemo, useState } from "react";
+import React, { useCallback, useContext, useEffect, useMemo, useState } from "react";
 import "./Quizz.css";
+import { QuizContext } from "../QuizContext";
 function shuffle(arr) {
   const a = [...arr];
   for (let i = a.length - 1; i > 0; i--) {
@@ -18,14 +19,26 @@ export default function Quizz() {
   const [selected,setSelected] = useState(null)
   //seed tha đổi => tạo order mới để play again
   const [seed, setSeed] = useState(0);
-
-  const file = 'questions2.vi.json'; 
+  const {quizFile } = useContext(QuizContext)
+  //const file = 'questions2.vi.json'; 
+  //đổi bộ câu hỏi (quizfile) thì reset lại các state
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}${file}`)
+    setQuestions(null);
+    setIdx(0);
+    setScore(0);
+    setDone(false);
+    setSelected(null);
+    setSeed(s => s + 1); 
+    setShowAnswer(false)
+  }, [quizFile]);
+
+  useEffect(() => {
+    if(!quizFile)return;
+    fetch(`${import.meta.env.BASE_URL}${quizFile}`)
       .then((res) => res.json())
       .then(setQuestions)
       .catch(console.error);
-  }, []);
+  }, [quizFile]);
   // tạo và xáo 1 mảng stt có độ dài QUESTIONS.length
   const order = useMemo(() => {
     if (!questions) {
@@ -36,7 +49,7 @@ export default function Quizz() {
   const total = order.length;
   //chuyền vào current 1 câu hỏi có stt ngẫu nhiên đã đc xáo
   const current = questions && order.length ? questions[order[idx]] : null;
-
+  
   function handleNext() {
       console.log(current.answer);
       console.log(selected)
@@ -71,11 +84,11 @@ export default function Quizz() {
   });
 
   if (!questions || order.length === 0) {
-    return <div>Loading quizz…</div>;
+    return <div>Loading quiz…</div>;
   }
   if (done) {
     return (
-      <div>
+      <div className="app">
         <h1>{score < total ? "You Lose" : "You win"}</h1>
         <h3>score: {Math.round((score/total)*100)}%</h3>
         <button onClick={handleRestart}>Play again</button>
@@ -84,12 +97,13 @@ export default function Quizz() {
   }
 
   return (
-    <div>
-      <div>
-        <p>quizz {idx + 1}/{total} score: {score}</p>
+    <div className="app">
+      <div className="questionss">
+        
+        <p>quiz {idx + 1}/{total} score: {score}</p>
 
-      <h2>
-        quizz {idx + 1}: {current.q}
+      <h2 className="question">
+        quiz {idx + 1}: {current.q}
       </h2>
       <ul>
         {current.options.map((opt, index) => (
@@ -101,8 +115,8 @@ export default function Quizz() {
           </li>
         ))}
       </ul>
-      </div>
       <div className="btn-next"><button onClick={handleNext}>{!showAnswer?"check":selected?"next":"skip"}</button></div>
+      </div>
       
     </div>
   );

@@ -19,7 +19,14 @@ button:disabled {
   color: inherit;       
   cursor: not-allowed;  
 }
-.btn-next {
+.btn-next button{
   text-align: center;
-  width: 45%;
+  width: 100px;
+  background-color: rgb(255, 82, 232);
+  color: rgb(0, 0, 0);
+  border-radius: 999px;
 }
+.btn-next button:hover{
+  background-color: rgb(71, 181, 255);
+}
+

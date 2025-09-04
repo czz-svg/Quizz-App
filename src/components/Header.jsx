@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <header>
-      <h1>⚡ React Quiz</h1>
+      <h1>⚡ Who is a billionaire? ⚡</h1>
     </header>
   );
 }

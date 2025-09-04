@@ -18,8 +18,10 @@ export default function Quizz() {
   const [selected,setSelected] = useState(null)
   //seed tha đổi => tạo order mới để play again
   const [seed, setSeed] = useState(0);
+
+  const file = 'questions2.vi.json'; 
   useEffect(() => {
-    fetch("/questions2.vi.json")
+    fetch(`${import.meta.env.BASE_URL}${file}`)
       .then((res) => res.json())
       .then(setQuestions)
       .catch(console.error);

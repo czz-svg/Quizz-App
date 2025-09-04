@@ -1,0 +1,25 @@
+
+button {
+  width: 90%;
+  background-color: white;
+  border: 1px solid;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.correct{
+  background-color: rgb(107, 255, 107);
+}
+.wrong{
+  background-color: rgb(255, 89, 89);
+}
+button:disabled {
+  opacity: 1;            
+  color: inherit;       
+  cursor: not-allowed;  
+}
+.btn-next {
+  text-align: center;
+  width: 45%;
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "q": "Con gì càng to càng nhỏ?",
+    "options": ["Cái thước", "Cái cân", "Cái kéo", "Cái chén"],
+    "answer": "Cái thước"
+  },
+  {
+    "q": "Cái gì càng rửa càng bẩn?",
+    "options": ["Cái khăn", "Nước", "Xà phòng", "Cái chổi"],
+    "answer": "Cái khăn"
+  },
+  {
+    "q": "Con gì mang được miệng mình đi chơi?",
+    "options": ["Con ốc", "Con cua", "Con cá", "Con người"],
+    "answer": "Con ốc"
+  },
+  {
+    "q": "Cái gì đen khi bạn mua, đỏ khi bạn dùng và xám khi bạn vứt?",
+    "options": ["Than", "Cà phê", "Trà", "Nến"],
+    "answer": "Than"
+  },
+  {
+    "q": "Loài gì cắn không đau mà ngứa?",
+    "options": ["Con muỗi", "Con kiến", "Con rệp", "Con ve"],
+    "answer": "Con muỗi"
+  },
+  {
+    "q": "Cái gì đi lên mà không bao giờ đi xuống?",
+    "options": ["Tuổi", "Thang máy", "Khí cầu", "Nhiệt độ"],
+    "answer": "Tuổi"
+  },
+  {
+    "q": "Cái gì có nhiều răng nhưng không cắn?",
+    "options": ["Cái lược", "Con cá mập", "Cái cưa", "Cái kìm"],
+    "answer": "Cái lược"
+  },
+  {
+    "q": "Buổi sáng đi bằng bốn chân, trưa đi bằng hai chân, tối đi bằng ba chân là gì?",
+    "options": ["Con chó", "Con người", "Con mèo", "Robot"],
+    "answer": "Con người"
+  },
+  {
+    "q": "Cái gì càng lấy đi thì càng to ra?",
+    "options": ["Cái lỗ", "Cái chén", "Cái hộp", "Cái chai"],
+    "answer": "Cái lỗ"
+  },
+  {
+    "q": "Con gì lúc trẻ thì bốn chân, lớn lên thì hai chân, già thì ba chân?",
+    "options": ["Con mèo", "Con người", "Con khỉ", "Con gà"],
+    "answer": "Con người"
+  }
+]
